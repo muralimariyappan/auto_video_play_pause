@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Auto video Play/Pause",
+  "description": "Pause your video when you are not looking at your screen",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_icon": "icons8-video-64.png",
+    "default_popup": "video.html"
+  },
+  "options_page": "options.html"
+}
